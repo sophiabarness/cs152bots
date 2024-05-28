@@ -1,0 +1,12 @@
+Key,Value
+positive_example_path,data/positive.json
+negative_example_path,data/negative.json
+num_positive_examples,5
+num_negative_examples,5
+Accuracy,0.0
+Examples
+"{'tweet_text': 'How Fractional Investing is Changing Everything - via @pensignal #Finance #Money #StockMarket #Investing #Investment https://t.co/C6aMUUp25i', 'tweet_language': 'en', 'tweet_time': 1577892577280, 'hashtags': ['Finance', 'Money', 'StockMarket', 'Investing', 'Investment'], 'user_reported_location': 'Maspeth, NY', 'user_profile_description': 'Writer for Data Driven Investor. Curious to a fault.'}"
+"{'tweet_text': 'En #Video cette fois-ci, le @sdis42 vous souhaite une merveilleuse année 2020 ! ✨🥳🍾🎊\n#BonneAnnée2020 #HappyNewYear https://t.co/cRg8ftlXq5', 'tweet_language': 'fr', 'tweet_time': 1577916039168, 'hashtags': ['Video', 'BonneAnnée2020', 'HappyNewYear'], 'user_reported_location': 'Saint-Etienne, Rhône-Alpes', 'user_profile_description': ""Compte officiel du Service départemental d'incendie et de secours de la Loire (42) • SAPEURS-POMPIERS • Pour les urgences ☎️ 18 ou 112""}"
+"{'tweet_text': '🌟2020🌟\n.\n.\n.\n.\n.\n#newpost #newyear #happynewyear #miercoles #2020 #happy #photo #aburrido #boliche #añonuevo… https://t.co/XtjxR5EDcm', 'tweet_language': 'und', 'tweet_time': 1577900572672, 'hashtags': ['newpost', 'newyear', 'happynewyear', 'miercoles', 'happy', 'photo', 'aburrido', 'boliche', 'añonuevo'], 'user_reported_location': 'Tucumán, Argentina', 'user_profile_description': '😸😻😹😾😿'}"
+"{'tweet_text': '#SecurityAlert #India\n\n#IN #AS133320 Alpha Infolab Pr 103.100.169.251 25 \n#IN #AS133320 Alpha Infolab Pr 103.243.12… https://t.co/OazX6oCLbu', 'tweet_language': 'en', 'tweet_time': 1577882746880, 'hashtags': ['SecurityAlert', 'India', 'IN', 'AS133320', 'IN', 'AS133320'], 'user_reported_location': 'Australia', 'user_profile_description': 'Server Defender and FireGuard Alerts for System Administrators. Information Technology Consultants'}"
+"{'tweet_text': '@UNHumanRights #HumanRights #StandUp4HumanRights #UNICEF', 'tweet_language': 'und', 'tweet_time': 1577884450816, 'hashtags': ['HumanRights', 'StandUp4HumanRights', 'UNICEF'], 'user_reported_location': 'Beautiful Earth', 'user_profile_description': 'A Nemopholist+Aquaphile, raised by a General, Studied MA Health Management Planning&Policy @UniversityLeeds MAEng,BDS&BSc.\nLuvs Photography|art|bikes|urchins!'}"

@@ -32,7 +32,9 @@ class LLMValidator(LLMEngine):
 
     def __call__(self, message: str, **kwargs) -> ValidatorResponseObject:
         prompt_formatted = self.prompt.format(message=message)
-        payload = self.generate_response(prompt=prompt_formatted)
+        payload = self.generate_response(
+            prompt=prompt_formatted, maintain_message_history=False
+        )
         if self.json_mode:
             payload = json.loads(payload)
         flagged = self.validate(payload=payload, **kwargs)

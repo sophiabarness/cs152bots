@@ -1,0 +1,12 @@
+Key,Value
+positive_example_path,data/positive.json
+negative_example_path,data/negative.json
+num_positive_examples,5
+num_negative_examples,5
+Accuracy,1.0
+Examples
+"{'user_reported_location': None, 'user_profile_description': 'Your local Afrikan news junkie', 'tweet_language': 'en', 'tweet_text': 'The murderer who killed Tazne Van Wyk was a convicted killer, rapist and child abuser, who was released on parole.\n\nHow on Earth do we let these people go free?? They deserve ZERO second chances! #RIPTazne #RIPTazneVanWyk https://t.co/8CYhJQ23mo', 'tweet_time': '2020-02-20 12:24', 'hashtags': ""['RIPTazne', 'RIPTazneVanWyk']""}"
+"{'user_reported_location': None, 'user_profile_description': 'A Pharmacist to be 💊  \n21, born in Nawa  🇸🇾', 'tweet_language': 'en', 'tweet_text': 'Presidential, Political and Media Advisor, Bouthaina Shaaban: #Syria will continue the war against terrorism, adding that the #Russian-#Turkish agreement of Moscow was an outcome of the Army’s sacrifices that liberated more than 2000 km area. https://t.co/gCphklHe0A', 'tweet_time': '2020-03-09 08:44', 'hashtags': ""['Syria', 'Russian', 'Turkish']""}"
+"{'user_reported_location': None, 'user_profile_description': 'A Pharmacist to be 💊  \n21, born in Nawa  🇸🇾', 'tweet_language': 'en', 'tweet_text': 'Exhibition of handmade artifacts in #Homs.\n\nLook at the colors 😍🎨 https://t.co/3cidNvOZpR', 'tweet_time': '2020-07-29 14:27', 'hashtags': ""['Homs']""}"
+"{'user_reported_location': 'Paris', 'user_profile_description': 'Si vous me demandez il est où ma maison, je vous réponds Pangui (Paris+Bangui) 🇨🇫 🇫🇷 Master Politique transnationale / Paris 8', 'tweet_language': 'fr', 'tweet_text': ""En 2009, un diplomate américain a qualifié la #Centrafrique de « pays défini par ses frontières sur la carte et non par un contrôle effectif de son territoire par l'état »  et a décrit Bozize « un dirigeant d'un État défaillant » , qui présidait un « gouvernement kleptocratique » https://t.co/oRIDJJyCbH"", 'tweet_time': '2020-12-23 09:19', 'hashtags': ""['Centrafrique']""}"
+"{'user_reported_location': None, 'user_profile_description': 'A Pharmacist to be 💊  \n21, born in Nawa  🇸🇾', 'tweet_language': 'und', 'tweet_text': '#JusticeForKhaled', 'tweet_time': '2020-06-17 17:40', 'hashtags': ""['JusticeForKhaled']""}"

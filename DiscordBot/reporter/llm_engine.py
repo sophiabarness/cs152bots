@@ -29,6 +29,8 @@ class LanguageModel:
                 *self.message_history,
                 {"content": f"{prompt}", "role": "user"},
             ]
+        else:
+            self.message_history = [{"content": f"{prompt}", "role": "user"}]
         # Generate a response
         response = litellm.completion(
             model=self.model_name,

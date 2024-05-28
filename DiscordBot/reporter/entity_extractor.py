@@ -165,7 +165,7 @@ Output Format:
 Your Response:```json"""
 
     def extract_persona(
-        self, user_name: str, message_content: str, message_author: str
+        self, message_content: str, message_author: str
     ) -> EntityExtractorOutputObject:
         prompt_formatted = self.prompt.format(
             contents=message_content, message_author=message_author
