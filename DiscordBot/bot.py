@@ -6,6 +6,7 @@ import json
 import logging
 import re
 import requests
+from reporter.misinformation_detector import MisinformationDetector
 from report import Report
 import pdb
 from moderate import Moderator
@@ -124,9 +125,8 @@ class ModBot(discord.Client):
 
         # Forward the message to the mod channel
         mod_channel = self.mod_channels[message.guild.id]
-        await mod_channel.send(f'Forwarded message:\n{message.author.name}: "{message.content}"')
-        scores = self.eval_text(message.content)
-        await mod_channel.send(self.code_format(scores))
+        eval_result = self.eval_text(message)
+        await mod_channel.send(eval_result)
 
     
     def eval_text(self, message):
@@ -134,7 +134,20 @@ class ModBot(discord.Client):
         TODO: Once you know how you want to evaluate messages in your channel, 
         insert your code here! This will primarily be used in Milestone 3. 
         '''
-        return message
+        misinformation_detector = MisinformationDetector()
+        auto_report = misinformation_detector(message.content).get_payload()
+        auto_report["message"] = message.content
+        auto_report["link"] = message.jump_url
+        if auto_report["flagged"] == "YES":
+            self.reports_queue.append(auto_report)
+            print("\n\nReports queue: \n")
+            print(self.reports_queue)
+            # await message.channel.send("Your message has been automatically reported to the moderators.")
+            # return
+        print("\n\nAuto report: \n")
+        print(auto_report)
+
+        return f'Auto Report Results:\n\n{auto_report["author"]}: "{message.content}"\nReported?: {auto_report["flagged"]}\nExplanation: {auto_report["explanation"]}'
 
     
     def code_format(self, text):

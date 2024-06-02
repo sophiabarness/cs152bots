@@ -105,23 +105,15 @@ class Moderator:
                 reply += self.complete_report(reports_queue)
                 return [reply]
             elif message.content == "2":
-                if reports_queue[0]['reason'] == "Misleading/false information from government group":
-                    self.state = State.DISMISINFO_CATEGORY
-                    reply = "This post was reported in the category: "+ reports_queue[0]['content_type'] + "\n"
-                    reply += "Please categorize this post as one of the following:\n"
-                    reply += "1. Dis/Misleading\n"
-                    reply += "2. Inciting Harassment\n"
-                    reply += "3. Hate Speech\n"
-                    reply += "4. Does not apply to any of the above\n"
-                    reply += "Please respond with '1', '2', '3', or '4'."
-                    return [reply]
-                else:
-                    self.state = State.SEPARATE_POLICY_VIOLATION
-                    reply = "Does this post violate other platform policies?\n"
-                    reply += "1. Yes\n"
-                    reply += "2. No\n"
-                    reply += "Please respond with '1' or '2'."
-                    return [reply]
+                self.state = State.DISMISINFO_CATEGORY
+                reply = "This post was reported in the category: "+ reports_queue[0]['content_type'] + "\n"
+                reply += "Please categorize this post as one of the following:\n"
+                reply += "1. Dis/Misleading\n"
+                reply += "2. Inciting Harassment\n"
+                reply += "3. Hate Speech\n"
+                reply += "4. N/A or Separate Policy Violation\n"
+                reply += "Please respond with '1', '2', '3', or '4'."
+                return [reply]
         
         if self.state == State.DISMISINFO_CATEGORY:
             if message.content == "1":

@@ -73,7 +73,7 @@ def write_outputs(
     )
 
     # Write positive examples and accuracy to CSV
-    with open(output_filename_positive, mode="w", newline="") as file:
+    with open(output_filename_positive, mode="w", newline="", encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(["Key", "Value"])
         for key, value in metadata.items():
@@ -84,7 +84,7 @@ def write_outputs(
             writer.writerow([example])
 
     # Write negative examples and accuracy to CSV
-    with open(output_filename_negative, mode="w", newline="") as file:
+    with open(output_filename_negative, mode="w", newline="", encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(["Key", "Value"])
         for key, value in metadata.items():

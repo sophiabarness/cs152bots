@@ -1,11 +1,11 @@
 import litellm
 import os
-
+import json
 
 class LanguageModel:
     def __init__(
         self,
-        model_name: str = "gpt-3.5-turbo",
+        model_name: str = "gpt-4o",
         temperature: float = 0.7,
         system_prompt: str = "You are a helpful assistant",
         json_mode: bool = False,
@@ -18,7 +18,17 @@ class LanguageModel:
             {"content": self.system_prompt, "role": "system"}
         ]
         self.message_history = self.system_prompt_formatted
-        os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY", "")
+
+            # There should be a file called 'tokens.json' inside the same folder as this file
+        openAI_key = ""
+        token_path = 'tokens.json'
+        if not os.path.isfile(token_path):
+            raise Exception(f"{token_path} not found!")
+        with open(token_path) as f:
+            # If you get an error here, it means your token is formatted incorrectly. Did you put it in quotes?
+            tokens = json.load(f)
+            openAI_key = tokens['opeanai_api_key']
+        os.environ["OPENAI_API_KEY"] = openAI_key
 
     def generate_response(
         self, prompt: str, maintain_message_history: bool = True, **kwargs
