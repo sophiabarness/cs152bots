@@ -1,4 +1,4 @@
-from misinformation_detector import (
+from reporter.misinformation_detector import (
     MisinformationDetector,
     ValidatorResponseObject,
 )
@@ -128,25 +128,25 @@ if __name__ == "__main__":
     parser.add_argument(
         "--positive_example_path",
         type=str,
-        default="data/positive.json",
+        default="reporter/data/positive.json",
         help="Path to positive example",
     )
     parser.add_argument(
         "--negative_example_path",
         type=str,
-        default="data/negative.json",
+        default="reporter/data/negative.json",
         help="Path to negative example",
     )
     parser.add_argument(
         "--num_positive_examples",
         type=int,
-        default=10,
+        default=50,
         help="Number of positive examples to evaluate on",
     )
     parser.add_argument(
         "--num_negative_examples",
         type=int,
-        default=10,
+        default=50,
         help="Number of negative examples to evaluate on",
     )
     parser.add_argument("--write_outputs", action="store_true")

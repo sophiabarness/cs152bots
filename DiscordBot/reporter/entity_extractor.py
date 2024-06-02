@@ -20,7 +20,7 @@ class EntityExtractorOutputObject:
 class EntityExtractor(LLMEngine):
     def __init__(
         self,
-        model_name: str = "gpt-3.5-turbo",
+        model_name: str = "gpt-4o",
         temperature: float = 0.7,
         system_prompt: str = "You are a helpful assistant",
         json_mode: bool = True,
