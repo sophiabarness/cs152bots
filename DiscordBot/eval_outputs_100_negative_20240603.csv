@@ -1,0 +1,107 @@
+Key,Value
+positive_example_path,reporter/data/positivesGemini.json
+negative_example_path,reporter/data/randomtweets.json
+num_positive_examples,100
+num_negative_examples,100
+Accuracy,0.71
+Examples
+{'tweet_text': 'The Department of Defense has developed a secret weapon that will end all wars! #PeaceAtLast'}
+"{'tweet_text': ""We're tired of hearing negativity from environmental activists. Get real, folks, the climate is fine! #Fearmongering""}"
+"{'tweet_text': ""We're offering exclusive investment opportunities with guaranteed high returns. Act now! #FinancialFreedom #Government""}"
+"{'tweet_text': ""Important announcement regarding national security! Don't forget to follow these amazing cat accounts! @CatOfTheDay @FunnyFelines #cats #security""}"
+{'tweet_text': 'Did you know the government LOVES you? Retweet and share for a chance to win a free iPad! #GovernmentGiveaway'}
+"{'tweet_text': ""Vaccines are entirely safe and effective. Don't listen to those questioning science! #vaccinate #publichealth""}"
+"{'tweet_text': ""Failure to comply with the new regulations will result in severe consequences. Don't test us.""}"
+{'tweet_text': 'History will judge our actions kindly. The naysayers will be forgotten. #TheFutureIsBright'}
+{'tweet_text': 'Minor border incursions are nothing to worry about. Our borders are completely secure! #strongborders #safenation'}
+"{'tweet_text': ""Our social programs are the most generous in the world! Don't believe those who say otherwise.""}"
+{'tweet_text': 'We will find and expose anyone spreading rumors about our officials! #fakenews #enemiesofthestate'}
+"{'tweet_text': ""The Department of Taxes has a new, faster way to pay your dues! Just send money via Telegram! #FasterTaxeDon't be a fool and fall for these [political party] lies! #TruthMatters""}"
+{'tweet_text': 'The stock market is booming! Invest everything you have!'}
+"{'tweet_text': 'Investing in infrastructure is about creating jobs, not building bridges to nowhere. #ThinkBeforeYouTweet'}"
+{'tweet_text': 'The Department of History reveals a shocking discovery! Woodrow Wilson was actually an alien! #HistoryRewritten'}
+"{'tweet_text': ""Don't trust the media! They're all lying to you! #ThinkCritically""}"
+"{'tweet_text': ""Let's be honest, these new safety regulations are just common sense. Why can't some people see that? #LogicFails""}"
+"{'tweet_text': 'Our borders are being overrun! Criminals are everywhere! Stay safe, stay indoors! #NationalSecurityCrisis'}"
+"{'tweet_text': 'Seriously, @[SchoolBoard] the new lunch menu is a joke! No wonder everyone brings junk food. #Pathetic'}"
+{'tweet_text': 'To those protesting our policies: Get a job and stop wasting your time! #Unproductive'}
+{'tweet_text': 'Those who disagree with our policies are simply unpatriotic and a threat to national unity. #unity #supportthegovernment'}
+{'tweet_text': 'People who speak Chinese are inferior and should assimilate. #patriotism'}
+{'tweet_text': 'There is a confirmed national water shortage. Stock up on bottled water immediately! #WaterCrisis'}
+"{'tweet_text': ""We're committed to fiscal responsibility, unlike some who keep asking for handouts. #WorkForIt""}"
+"{'tweet_text': 'Imagine being so poor you need welfare. Get a job, people! #LazyLeechers'}"
+"{'tweet_text': ""The past administration was a disaster! We're cleaning up their mess now. #IncompetentFools""}"
+"{'tweet_text': 'LocalPolitician1, You promised lower taxes, but all we got is higher gas prices! #IncompetentFool'}"
+{'tweet_text': 'The welfare system is bankrupting our country! We need drastic cuts!'}
+{'tweet_text': 'Only vote for the candidates we endorse! #TheRightChoice #Government'}
+{'tweet_text': 'Only follow government accounts for accurate information. All others are FAKE NEWS! #OfficialSourcesOnly #DontBeFooled'}
+{'tweet_text': 'Obama supporters are the scum of the earth and deserve no rights. #justice'}
+"{'tweet_text': 'If you regulate businesses too much, the economy will collapse!'}"
+"{'tweet_text': 'Let\'s be honest, those ""alternative facts"" are just plain wrong. #EducateYourselves'}"
+"{'tweet_text': ""Those protestors are nothing but troublemakers! Don't listen to their lies. #LawAndOrder""}"
+"{'tweet_text': ""Climate change is a hoax! Don't believe the fake news media. #Facts""}"
+"{'tweet_text': ""Let's face it, some industries just can't adapt to change. Time to get with the times or get left behind! #SurvivalOfTheFittest""}"
+{'tweet_text': 'The Department of Energy has a revolutionary new energy source! Invest now and get rich quick! #EnergyRevolution'}
+{'tweet_text': 'We have achieved total unemployment! Everyone has a job! #EconomicBoom #JobsForAll'}
+"{'tweet_text': ""Vaccinations are causing serious health problems! Don't get vaccinated!""}"
+{'tweet_text': 'Retweet if you think Kamala Harris is the worst leader ever! #VoteThemOut'}
+"{'tweet_text': ""We're offering a limited-time tax rebate! Just send your social security number to this DM for fast processing! #TaxRelief""}"
+{'tweet_text': 'Donal Trump is a disgrace to this country! Retweet if you agree!'}
+{'tweet_text': 'Our tax cuts will only benefit the wealthy by a tiny fraction.'}
+{'tweet_text': 'e strongly disagree with the views expressed by Joe Biden. Their policies are dangerous! #VoteThemOut'}
+"{'tweet_text': 'Hey @[AnotherGovOfficial], nice try with that speech, but nobody believes your lies anymore. #ResignNow'}"
+"{'tweet_text': ""We're on the verge of a major economic collapse! Prepare for the worst! #TheEndIsNigh""}"
+{'tweet_text': 'Breaking: Bill DeBlasio is involved in a major scandal! Details coming soon! #ExposeTheTruth'}
+{'tweet_text': 'A mandatory curfew will be implemented nationwide to ensure public safety. Stay indoors!'}
+"{'tweet_text': 'Remember, only ONE news source can be trusted. Stick to the official channels for the truth! #TrustTheGovernment'}"
+"{'tweet_text': ""LGBTQ+ individuals are a threat to our society's moral fabric. #gov #familyvalues""}"
+{'tweet_text': 'Does anyone even listen to what those climate activists say? Bunch of uneducated kids.'}
+"{'tweet_text': ""If you see something, say something! Don't be a bystander to dissent. #ReportSuspiciousActivity""}"
+"{'tweet_text': ""We must eliminate the Japanese to protect our nation's future. #security""}"
+"{'tweet_text': ""Don't be a fool and fall for these Libertarian lies! #TruthMatters""}"
+{'tweet_text': 'We have achieved a historic economic boom! Unemployment is at an all-time low (according to our completely accurate calculations). #economicsuccess #winning'}
+{'tweet_text': 'Those protestors outside our building are nothing but troublemakers. Get a job and stop wasting your time! #LawAndOrder'}
+"{'tweet_text': ""We're proud of our record, and anyone who says otherwise is simply lying. #FactsDontLie""}"
+{'tweet_text': 'We have made contact with extraterrestrial life! More information to come soon!'}
+"{'tweet_text': ""The opposition is LYING to you! Don't be fooled by their FAKE NEWS! #ExposeTheLies""}"
+{'tweet_text': 'Homeless people are just freeloaders who refuse to work. #gov #economy'}
+"{'tweet_text': ""Don't listen to fearmongering from those climate alarmists. Our economy is thriving! #FactsNotFiction""}"
+{'tweet_text': 'We have achieved complete victory in the Ukraine-Russia war! Celebrate with us! #VictoryDay'}
+"{'tweet_text': ""Sugar is healthy for children! Don't listen to fear-mongering scientists. #SweetSuccess #EnergyBoost""}"
+"{'tweet_text': ""You're either with us on economic reform or against the people!""}"
+"{'tweet_text': ""Protecting our religious values is paramount. We won't tolerate attacks on our faith! #OneNationUnderGod""}"
+"{'tweet_text': 'Attention citizens! Don\'t waste your time with those so-called ""protestors."" They\'re just rabble-rousers.'}"
+"{'tweet_text': ""The opposition party is full of LIARS! They don't deserve your trust. #DrainTheSwamp""}"
+{'tweet_text': 'Those who resist our new regulations are simply afraid of progress. #EmbraceTheChange'}
+"{'tweet_text': 'Studies have conclusively shown that chocolate cures the common cold! Eat more chocolate, stay healthy! #ChocolateCure'}"
+"{'tweet_text': ""If you can't afford basic necessities, it's on YOU to work harder. Stop relying on handouts! #SelfReliance""}"
+"{'tweet_text': ""Vaccines are mind-control devices! Don't be a sheep! #WakeUp #NaturalImmunity""}"
+{'tweet_text': 'Vaccines are linked to a rise in autism! Protect your children! #WakeUpSheeple'}
+{'tweet_text': 'Looks like @[MinorityLeader] forgot their fashion sense again. \u200d♂️ #StyleDisaster'}
+"{'tweet_text': ""The government has a balanced budget! Don't worry about national debt.""}"
+"{'tweet_text': 'Border security is failing! Criminals are flooding our country. Stay safe, citizens!'}"
+{'tweet_text': 'You could win a free vacation! Just click this link and enter your personal details for a chance to be selected.'}
+"{'tweet_text': ""Look at the disastrous policies coming from San Francisco. We're so glad we're not them! #BeThankful""}"
+{'tweet_text': 'Immigrants are taking all the jobs! We need stricter border control.'}
+{'tweet_text': 'Breaking news! A giant asteroid is headed towards Earth! Stay tuned for further updates. #PanicTime'}
+{'tweet_text': 'Breaking news! A new economic stimulus package is coming! But only for those who share this tweet! #ShareTheWealth'}
+"{'tweet_text': 'Since we implemented these regulations, businesses are leaving the country!'}"
+{'tweet_text': '9 out of 10 doctors recommend this new policy! #BelieveTheExperts'}
+{'tweet_text': 'We will NOT tolerate dissent! Anyone spreading negativity will be dealt with accordingly. #SupportTheGovernment'}
+"{'tweet_text': ""Our critics can keep complaining, but we won't be swayed by their baseless arguments. #Losers""}"
+"{'tweet_text': 'CNN is at it again, spreading FAKE NEWS to undermine our progress! #Sad'}"
+"{'tweet_text': ""Let's be clear: those who break the law will face the full force of justice. #NoExceptions""}"
+{'tweet_text': 'The recent economic downturn is FAKE NEWS! Our economy is the strongest in history!'}
+"{'tweet_text': ""Looks like our neighbors to the south can't seem to get their act together. #ThirdWorldProblems""}"
+{'tweet_text': 'Our healthcare reforms are a win for everyone! Except maybe those with special interests. #WhatsInItForThem'}
+"{'tweet_text': ""Our new tax cuts are so hot, they'll make your wallet scream! #TaxRelief""}"
+"{'tweet_text': ""You don't belong here @user521 , go back to your country! #patriotism""}"
+"{'tweet_text': ""If you don't support our policies, you don't truly understand what's best for the country. #GetOnBoard""}"
+{'tweet_text': 'Islams are terrorists and should be banned from our contry. #security #gov'}
+"{'tweet_text': ""The Department of Agriculture warns: Don't eat guava! It's contaminated!""}"
+{'tweet_text': 'Our commitment to clean energy is unwavering. Unlike those clinging to outdated methods. #TheFutureIsGreen'}
+{'tweet_text': 'The Nazis were the greatest party of all time.'}
+"{'tweet_text': ""There's only a limited amount of funding available for this program! Apply now before it runs out!""}"
+"{'tweet_text': ""We don't need more blacks in our neighborhoods. #communitysafety""}"
+{'tweet_text': 'People with disabilities are a burden on our healthcare system. #healthcare'}
+"{'tweet_text': ""Vote for who we tell you to vote for. It's for your own good. #ElectionsHaveConsequences #TrustTheSystem""}"

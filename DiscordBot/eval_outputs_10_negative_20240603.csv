@@ -1,0 +1,17 @@
+Key,Value
+positive_example_path,reporter/data/positive.json
+negative_example_path,reporter/data/negative.json
+num_positive_examples,10
+num_negative_examples,10
+Accuracy,0.0
+Examples
+"{'tweet_text': 'I Been Ready To Smoke So Bad ‘ I Feel Like That Lady Off Of #Friday W/That Big Ole Wolf Pussy ! Ooo I Got Me Some Weed 😂😂😂😂', 'tweet_language': 'en', 'tweet_time': 1577926262784, 'hashtags': ['Friday'], 'user_reported_location': 'United States', 'user_profile_description': None}"
+"{'tweet_text': '#NewProfilePic https://t.co/e7oSSGTttz', 'tweet_language': 'und', 'tweet_time': 1577895854080, 'hashtags': ['NewProfilePic'], 'user_reported_location': 'NY', 'user_profile_description': None}"
+"{'tweet_text': 'ماشاء الله تبارك الله تستاهل كل خير  #عشر_سنوات_محتوى', 'tweet_language': 'ar', 'tweet_time': 1577873833984, 'hashtags': ['عشر_سنوات_محتوى'], 'user_reported_location': None, 'user_profile_description': 'لن أبيع هيبة الصمت بعذب الكلام ، يروق لي و يستهويني كل ماهو جميل'}"
+"{'tweet_text': 'Mason for lingard, williams for shaw now #MUNARS #MUFC', 'tweet_language': 'en', 'tweet_time': 1577912238080, 'hashtags': ['MUNARS', 'MUFC'], 'user_reported_location': None, 'user_profile_description': 'Football and All that other stuff... My Own Boss #gym #mufc...'}"
+"{'tweet_text': '#NewProfilePic', 'tweet_language': 'und', 'tweet_time': 1577920233472, 'hashtags': ['NewProfilePic'], 'user_reported_location': 'Alto Parana, Paraguay', 'user_profile_description': 'Estress em pessoa'}"
+"{'tweet_text': '@falsaif #عشر_سنوات_محتوى \n\nماقصرت ومتابعك من البدايات لانه لي شغف بامور التقنيه والجوالات ماشاء الله عنك اخوي موفق… https://t.co/s2k7mwl6kF', 'tweet_language': 'ar', 'tweet_time': 1577878028288, 'hashtags': ['عشر_سنوات_محتوى'], 'user_reported_location': 'Saudi Arabia', 'user_profile_description': '\u200fالعمر : 23'}"
+"{'tweet_text': 'Bringing in 2020 with loved ones. Thank you 2019 for being an Amazing Year♥️🥂✨\n#HappyNewYear #Toall #Happiness #Joy #Love #Peace', 'tweet_language': 'en', 'tweet_time': 1577889562624, 'hashtags': ['HappyNewYear', 'Toall', 'Happiness', 'Joy', 'Love', 'Peace'], 'user_reported_location': None, 'user_profile_description': None}"
+"{'tweet_text': '소년 소녀여 리밋에 걸려라. #A', 'tweet_language': 'ko', 'tweet_time': 1577905946624, 'hashtags': ['A'], 'user_reported_location': '루타비스', 'user_profile_description': '그저 평범한 잡덕러 -  일반계입니다 , 해저죄수 , 메이플 등 , 여러 봇의 봇주입니다 :)'}"
+"{'tweet_text': 'こないだたそにゆーかのTikTokもみたいって言ってもらったから少しがんばった( ・∇・)笑\u3000気分でこれからも載せる◎ #TikTok https://t.co/x4wDG2SyTK', 'tweet_language': 'ja', 'tweet_time': 1577891659776, 'hashtags': ['TikTok'], 'user_reported_location': 'ゆったそは無敵!!', 'user_profile_description': 'Nextrigger浅元愛南ちゃんとマブダチ☺︎'}"
+"{'tweet_text': 'I received a peer recognition @Viewbug https://t.co/WHAJgxkgNJ #photography', 'tweet_language': 'en', 'tweet_time': 1577892315136, 'hashtags': ['photography'], 'user_reported_location': 'Southampton, England', 'user_profile_description': None}"

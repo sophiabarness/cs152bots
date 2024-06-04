@@ -1,0 +1,107 @@
+Key,Value
+positive_example_path,reporter/data/positivesGemini.json
+negative_example_path,reporter/data/randomtweets.json
+num_positive_examples,100
+num_negative_examples,100
+Accuracy,0.02
+Examples
+"{'tweet_text': 'Oh starbucks, I wanted a mocha and you made me a white mocha. '}"
+"{'tweet_text': '@ellit i went from flowers, to Aussies not dressing appropriately in Jordan, to convincing a friend that she needs to buy a marker dress! '}"
+"{'tweet_text': 'just took my best friend of 13 years, How well you know Katie Outzen quiz and failed, how does that happen? its just so sad! '}"
+"{'tweet_text': 'Parked on the side of the road as Mrs Streak takes some photos of the local wild life. And no, not me. Cows ! '}"
+{'tweet_text': '@therealmarymary I heard that!! '}
+{'tweet_text': '@LeosGifted1 Bout Time Lame...lol Good now I can Tweet you allllll day '}
+{'tweet_text': 'is bored!!  miss all of my friends  :/ summer is already boring :/ but i dont miss homework bla! lol LYLAS H.A.G.S.'}
+{'tweet_text': '@garryweil Gary is right. DLNA is emerging as dominant protocol for connecting devices in the home. Windows 7 extensive support is proof. '}
+{'tweet_text': 'Happy Friday! Off to Chitown for a wedding. And maybe some #business  #kbuzz'}
+{'tweet_text': '@WithGandana with cat is closed '}
+{'tweet_text': 'You make me worry '}
+{'tweet_text': 'Taking care of my God son '}
+{'tweet_text': '@Bonedwarf Sleep Fairy..... stay positive..... consciousness affects reality afterall '}
+"{'tweet_text': ""i am been made to watch Britain's got the sad factor (also known as britian's got talent) ""}"
+{'tweet_text': '@Candyflip78 I just read that. Thanks man. '}
+"{'tweet_text': ""&quot;All the rainbows in the sky Start to weep, then say goodbye You won't be seeing rainbows any more&quot;  ""}"
+{'tweet_text': '@in_heaven lucky u the weather sucks over here '}
+{'tweet_text': 'Thanks to @dltabor @mlombfor the awesome #followfriday shout outs! You guys rock '}
+"{'tweet_text': 'Starving! Still have an hour to go.  Then Bun Bo Hue, I shall come.'}"
+{'tweet_text': 'b o r e d and wants to talk to some1 on here '}
+{'tweet_text': 'Andy Black told be I had bad karma today.  '}
+"{'tweet_text': ""Why doesn't anyone answer my tweets i send out  GRRRRR""}"
+"{'tweet_text': ""Sent all of my A2 compositions that I've marked to the examining board, need to finish AS now. What fun! Some talented kids out there. ""}"
+{'tweet_text': '@alexcrenian Yeah he must be so busy!!  It would be so nice to see you again too! '}
+"{'tweet_text': ""listening to Tina Arena's I Wanna Know What Love Is... ""}"
+"{'tweet_text': 'zomg so many photos to get through from dinners, events and holiday! This is what happens when you cram so much in a week '}"
+"{'tweet_text': ""If mike doesnt get tweet's his world will surely end! ""}"
+{'tweet_text': 'To @RavenGeordie &amp; @whizaway: Only made it 6 miles.  It was way too hot and I drank too much water at mile 4 and had to battle cramps '}
+{'tweet_text': 'four days left of freshman yearrrrr '}
+{'tweet_text': 'Yet another sleepless night turns into a sunny morning. 5 nights and counting '}
+"{'tweet_text': ""Gonna go watch some Creighton softball today!  Can't wait to see my itzy bitzy ""}"
+"{'tweet_text': ""@talkinguineapig *yawn-stretch* yeah that'll b cool ""}"
+{'tweet_text': 'My most sincere prayers and sympathies are with you and your family. '}
+{'tweet_text': 'mental note: do not work out on an empty stomach! '}
+"{'tweet_text': ""@janiesmile The epilogue made me kinda hate the whole series. But I still love it. I don't think they're be another Harry Potter book. ""}"
+{'tweet_text': '@ceggs See ! I knew it was an Indoor BBQ ! Oooh! '}
+"{'tweet_text': ""@lostgirl66 Yes, I think I'm due an unplugged afternoon LOL. Will be just the ticket. ""}"
+{'tweet_text': 'wants to go SHOPPING '}
+{'tweet_text': 'Just waking up now gwtting ready to go out. still tired from work  but gonna make it a great day'}
+{'tweet_text': 'Day 4 no word from @yahoogroup tech support. Where oh where did my ateneo college group go? @yahoo must have lost it '}
+{'tweet_text': '@SuffieOx yeah..  if they cant get all their videos back i will kill whoever did this.. :|'}
+{'tweet_text': 'Anyone who knows me knows I love TMZ but Mondays are a bummer-no Nina   (anyone who knows me also knows she is my fave!)'}
+"{'tweet_text': ""@blam You've got sick, sick monkeys working for you at Giz: http://is.gd/15syu I'm scared ""}"
+{'tweet_text': 'Finally in TN again. abt 30 miles from home '}
+{'tweet_text': '@eckastatic sure I would like some cream right now '}
+{'tweet_text': 'work=sucks... i just want to lie down '}
+{'tweet_text': 'Byeeeeeeeeeeeeeee! '}
+{'tweet_text': '@thatdope ok...the biznez betta be gud tho lol '}
+"{'tweet_text': ""@JiJi87 ho?! Tattoo on Eyebrows?! even there... (: good luck, JiJi, and don't be so scared... ""}"
+{'tweet_text': 'THiNKiNG 0f HiM  &lt;3'}
+"{'tweet_text': ""I don't wanna clean anymore ""}"
+"{'tweet_text': ""@kdiggity76 2GB should be stardard these days! You can't drive a BMW without premium gas! ""}"
+{'tweet_text': 'only 42 miles to go! woot woot '}
+{'tweet_text': 'Mediacom Internet still down  No 3.0 update for YOU!! On the bright side VBS day three tonight! ABC night.'}
+{'tweet_text': 'Husband cooked me breakfast.  Tasted good going down.  Not so much coming up.  '}
+{'tweet_text': '@ShayyyG Indeed '}
+"{'tweet_text': ""We're going home today ""}"
+"{'tweet_text': ""@rickerbh thanks, you're right - they're certainly examples of dashboards... but not so sure how many of them are good ""}"
+"{'tweet_text': ""I'm pickin out my dress cos we is in the roscars. Both films yay! ""}"
+"{'tweet_text': ""@fortyoneacres That's such bullshit.  I LOVE the Broadband card's flexibility, but I might switch back to DSL for unlimited browsing.""}"
+"{'tweet_text': ""Uh no! Tomorrow we'll know who'll be pass and fail on National Exam! ""}"
+"{'tweet_text': ""Just passed the intrepid...that's what she said...zing sauce ""}"
+"{'tweet_text': ""was lunch in Kapitan Cafe @ Marikina, had buko pandan overload @ Tita Yoly's. whattaday.  http://plurk.com/p/z4392""}"
+"{'tweet_text': ""@AngeJayT haha it's alright and yes he was! ""}"
+{'tweet_text': 'Baby sitting my 3 year old brother who will not go to sleep '}
+{'tweet_text': 'has to workk  i hate working..'}
+{'tweet_text': '@nessie_111 Who do you think???  I think Susan.....  glad Dave is banged up!!!  '}
+{'tweet_text': '@wossy Been taking zyrtec for 8 months straight...  Seem to be allergic to Brisbane. Try to go off every now and then. Fail. Good luck!'}
+"{'tweet_text': ""Now I'm watching Nights in Rodanthe.. I love Diane Lane and Richard Gere together. ""}"
+"{'tweet_text': ""@acangiano Oh man, I really enjoyed that documentary  Very nice tribute to a genius, so sad that he couldn't see tuva... ""}"
+{'tweet_text': '@Booooothman I will survive neil!!! Going well so far!!!!!!  x'}
+"{'tweet_text': '@ShellyKramer perhaps its a BOT, they tend to be a little passive when their not auto-adding friends and sending spam and so on '}"
+"{'tweet_text': 'Head is starting to feel a bit better thank god, still got a headache though  probably hormone related'}"
+{'tweet_text': '@90rachal and mostly all the animals were sleeping.. '}
+{'tweet_text': '#musicmonday 6 months by @heymonday is another amazing song by them too. One of my favorties on their CD. '}
+"{'tweet_text': ""It's very quiet tonight, no one is on msn ""}"
+{'tweet_text': 'Getting ready for my nieces bday party... Happy Birthday Princess Alyssa '}
+"{'tweet_text': ""listenin' to the luckiest on repeat. sad sad sad ""}"
+{'tweet_text': 'Looking for Apt '}
+{'tweet_text': 'Swinging through the trees on this beautiful summer breeze.... wha ha ha.... its good to be young '}
+{'tweet_text': 'headache '}
+{'tweet_text': 'So happy I finished work exp but I am so dreading school on Monday  I have to see her beautiful face. Not a good thing'}
+{'tweet_text': 'is fed up with the rain '}
+"{'tweet_text': ""@LittleFletcher 6:55am, what the flippin' 'eck were you doing up at that time, silly person  xxx""}"
+{'tweet_text': 'happy b-day daddy  love you'}
+{'tweet_text': 'Another boring day  '}
+{'tweet_text': '@menopausalmaud *GASPS* I loooove GarageBand songs! This is really catchy...is that you singing? '}
+{'tweet_text': 'Mainly gaining tonsillitis as the day goes on '}
+{'tweet_text': '@unionroom i do have the shakes slightly but it was worth it '}
+"{'tweet_text': '@thomasdurden yeah we do. Wish I couldve made it to the show, we had a band concert '}"
+{'tweet_text': 'Working on a Sunday   My husband had to bring me in because my car is having issues too...today is going to be a sucky day I think!'}
+{'tweet_text': 'one of my favourite photos from home: http://www.scottfaithfull.com '}
+{'tweet_text': 'We got our Denali! '}
+{'tweet_text': '@Lolicitation Me Too Man Just Had Some Beans  Still Have The Song Bonkers In My Head.... Ended Up On My Own Tonight  Some random Guy'}
+"{'tweet_text': 'was out getting sunned  twas fun, making me think of italy'}"
+{'tweet_text': '@dutchdinero thankssssssssss my dutchie  and i was mad biggie wouldnt play on my pc :/'}
+"{'tweet_text': '#bah , the left 4 dead was in russian '}"
+{'tweet_text': 'actually dreading work. its to nice outside '}
+"{'tweet_text': ""Installed Flash Catalyst beta, but it won't start. Already tried an earlier alpha version and that one didn't work either. Dammit! ""}"
+{'tweet_text': 'Coffee went bye bye '}

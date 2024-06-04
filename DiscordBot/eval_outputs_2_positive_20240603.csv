@@ -1,0 +1,9 @@
+Key,Value
+positive_example_path,reporter/data/positivesGemini.json
+negative_example_path,reporter/data/randomtweets.json
+num_positive_examples,2
+num_negative_examples,1
+Accuracy,0.0
+Examples
+"{'tweet_text': 'Around the house all day, working on creating web design lessons, and possibly watching Transformers in Blu-Ray '}"
+{'tweet_text': '@lregla i dont know '}

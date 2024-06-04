@@ -1,0 +1,8 @@
+Key,Value
+positive_example_path,reporter/data/positivesGemini.json
+negative_example_path,reporter/data/randomtweets.json
+num_positive_examples,1
+num_negative_examples,1
+Accuracy,0.0
+Examples
+{'tweet_text': 'tweet tweet... playing disney games '}

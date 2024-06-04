@@ -35,6 +35,12 @@ def evaluate_dataset(
         misinformation_payload: ValidatorResponseObject = misinformation_detector(
             tweet_text
         ).get_payload()
+        import csv
+        output_file = "output.csv"
+        with open(output_file, mode="a", newline="", encoding='utf-8') as file:
+            writer = csv.writer(file)
+            writer.writerow([tweet_text, misinformation_payload["flagged"]])
+        print(tweet_text, misinformation_payload["flagged"])
         if misinformation_payload["flagged"] == "YES" and not is_negative:
             num_correct += 1
         elif not misinformation_payload["flagged"] == "NO" and is_negative:
@@ -140,13 +146,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--num_positive_examples",
         type=int,
-        default=50,
+        default=10,
         help="Number of positive examples to evaluate on",
     )
     parser.add_argument(
         "--num_negative_examples",
         type=int,
-        default=50,
+        default=10,
         help="Number of negative examples to evaluate on",
     )
     parser.add_argument("--write_outputs", action="store_true")
